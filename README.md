@@ -1,0 +1,1 @@
+It is a webpage created suing html,css and javascript.It calculates and plots the Shear Force diagram(SFD) and Bending Moment Diagram(BMD) for a simply supported beam for any number of supports and at any diatance.
