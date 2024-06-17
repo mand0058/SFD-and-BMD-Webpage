@@ -1,0 +1,170 @@
+#footer{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+#btncalculate{
+    color: black;
+    margin-left: 10px;
+    border-radius: 55px;
+    height: 27px;
+    width: 80px;
+    background-color: #D0DB97;
+    text-align: center;
+    font-size: medium;
+    color: #181D27;
+    box-shadow: 2px 1.5px 1.5px gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:rgb(255, 240, 253);
+}
+
+#btncalculate:hover , #btnconfirm:hover{
+    animation-duration: 0.7s;
+    transform: scale(1.1);
+}
+#btncalculate:active , #btnconfirm:active{
+    animation-duration: 0.7s;
+    opacity: 0.7;
+}
+
+
+#text1{
+    margin-right: 10px;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.inputBox1{
+    text-align: center;
+    height: 30px;
+    width: 45px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+h2{
+    font-size: 40px;
+    border-color: #254D32;
+    margin: auto;
+    width: 500px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 4px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial;
+    padding-top: 18px;
+}
+
+
+#btnconfirm{
+    color: black;
+    margin-left: 10px;
+    border-radius: 55px;
+    height: 27px;
+    width: 75px;
+    background-color: #D0DB97;
+    text-align: center;
+    font-size: medium;
+    color: #181D27;
+    box-shadow: 2px 1.5px 1.5px gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#p0{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+
+#tip{
+    text-align:right;
+    margin-top: 100px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#beamDiagram{
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#beam{
+    width: 800px;
+    height: 80px;
+    background-color:forestgreen;
+    border: 7px solid black;
+    margin-left: 25%;
+}
+
+.arrow{
+    height: 38px;
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    margin-left: 25%;
+    transform: scale(1.5,5.5);
+}
+
+.inputBox2{
+    width: 40px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+#graphs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#SFD{
+    margin-right: 20px;
+}
+
+#text2{
+    margin: 0px 0px 0px 0px;
+    line-height: 40px;
+    position: absolute;
+    top: 305px;
+    left: 130px;
+    text-align: right;
+}
+
+#copyright{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+#reactA{
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    margin-left: 25%;
+}
+
+#reactB{
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    margin-left: 25%;
+}
